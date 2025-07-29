@@ -2,13 +2,13 @@
 
 The identity of the owner can be confirmed using the public proof number below.
 
-# 🔐 Public Proof Number
+# Public Proof Number
 
 ```
 Proof: 3237
 ```
 
-## 🛠️ How to Create the Proof
+## How to Create the Proof
 
 To generate the proof number:
 
@@ -47,7 +47,7 @@ $proof = Get-Proof -name $name -email $email
 # $proof = Get-Proof -name "Fred Jones" -email "fred.jones@protonmail.com"
 ```
 
-## ✅ How to Verify
+## How to Verify
 
 1. Obtain the full name and email address
 2. Run the `Get-Proof` function above
@@ -74,7 +74,7 @@ Then you have caught a leprechaun! Congratulations!!!
 
 ---
 
-## 🔒 Why This Works
+##  Why This Works
 
 - Both name and email are private but reproducible by trusted parties
 - The proof can be calculated without sharing the personal data publicly
@@ -108,14 +108,14 @@ print(f"Calculated Proof: {proof}")
 published_proof = 3580
 
 if proof == published_proof:
-    print("✅ Identity Verified")
+    print("Identity Verified")
 else:
-    print("❌ Identity Not Verified")
+    print("Identity Not Verified")
 ```
 
 ---
 
-### 📝 Instructions
+### Instructions
 
 1. Save the script to a file called `verify_proof.py`
 2. Update `name` and `email` with values from the résumé
